@@ -29,6 +29,7 @@ def send_whatsapp_message():
         "Authorization": "Bearer " + ACCESS_TOKEN,
         "Content-Type": "application/json",
     }
+    print(url)
     data = {
         "messaging_product": "whatsapp",
         "to": RECIPIENT_WAID,
